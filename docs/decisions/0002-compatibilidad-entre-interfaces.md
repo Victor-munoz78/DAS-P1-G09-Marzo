@@ -21,3 +21,18 @@ Necesitamos un patrón que adapte los distintos módulos, ¿cuál sería el más
 ## Decision Outcome
 
 Chosen option: "Patrón Adapter", because se puede usar para adaptar estas interfaces de manera que los microservicios puedan interactuar sin problemas.
+
+### Positive Consequences
+
+* Es posible incorporar nuevos adaptadores sin afectar negativamente a las interfaces existentes.
+* Al tener como meta hacer compatibles interfaces que de otro modo no lo serían.
+
+### Negative Consequences
+
+* Considerando que la complejidad del código tiende a aumentar al introducir nuevas interfaces.
+
+## Pros and Cons of the Options
+
+### Patrón Adapter
+
+Facilita la colaboración entre interfaces que inicialmente no son compatibles.
