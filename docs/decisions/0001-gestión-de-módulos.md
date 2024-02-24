@@ -3,7 +3,7 @@
 * Status: accepted
 * Date: 2024-02-24
 
-Technical Story: RF-2
+Technical Story: RF-2.3
 
 ## Context and Problem Statement
 
@@ -21,3 +21,12 @@ El sistema requiere la integración de dos algoritmos de optimización, los cual
 ## Decision Outcome
 
 Chosen option: "Patrón Strategy", because permite definir una familia de algoritmos, encapsular cada uno de ellos y hacer que sean intercambiables. En este caso, se puede utilizar para gestionar las estrategias de optimización en el módulo de Reparto y Rutas, permitiendo cambiar los algoritmos de optimización según la demora del camión.
+
+### Positive Consequences
+
+* Facilita cambiar algoritmos en tiempo de ejecución, posibilitando ajustes según la demora del camión en nuestro caso.
+
+### Negative Consequences
+
+* Puede incrementar la complejidad del código.
+Desventaja, al generar duplicidad de código.
