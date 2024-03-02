@@ -1,6 +1,6 @@
 # Notificaciones a Clientes
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-03-02
 
 Technical Story: RF-4

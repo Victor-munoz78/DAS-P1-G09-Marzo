@@ -1,6 +1,6 @@
 # Selección Tipo Base de Datos
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-03-02
 
 Technical Story: RF-1
@@ -19,10 +19,8 @@ Chosen option: "SQL", because es más adecuada para el tipo de arquitectura eleg
 
 ### Positive Consequences
 
-* Organización estructurada de datos y seguridad.
-* Facilidad de consulta y escalabilidad.
+* Ideal si hay múltiples clientes que necesitan recibir notificaciones sobre el seguimiento de pedidos. Proporciona desacoplamiento entre el emisor (módulo de repartos y ruta) y los receptores (clientes) permitiendo una fácil extensión.
 
 ### Negative Consequences
 
-* Posible impacto en el rendimiento del sistema.
-* Rigidez en el esquema de datos.
+* Puede volverse complejo si la lógica de notificación se vuelve más complicada o si hay muchos tipos diferentes de notificaciones
