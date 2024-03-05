@@ -1,7 +1,7 @@
 # Conexión al servidor
 
 * Status: accepted
-* Date: 2024-03-02
+* Date: 2024-02-09
 
 Technical Story: RF-1
 
