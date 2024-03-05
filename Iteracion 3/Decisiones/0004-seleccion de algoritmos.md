@@ -1,4 +1,4 @@
-# Gestión de módulos
+# Selección de Algoritmos
 
 * Status: accepted
 * Date: 2024-02-24
