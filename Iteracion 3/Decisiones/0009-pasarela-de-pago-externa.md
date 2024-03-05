@@ -1,7 +1,7 @@
 # Pasarela de Pago Externa
 
 * Status: accepted
-* Date: 2024-03-02
+* Date: 2024-02-24
 
 Technical Story: RF-3
 
