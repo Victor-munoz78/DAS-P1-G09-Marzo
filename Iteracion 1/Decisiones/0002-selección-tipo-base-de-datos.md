@@ -1,6 +1,6 @@
 # Selección Tipo Base de Datos
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-08
 
 Technical Story: RF-1
